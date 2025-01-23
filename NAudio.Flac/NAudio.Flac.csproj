@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netcoreapp3.1;net472;net6.0;net6.0-windows</TargetFrameworks>
+		<TargetFrameworks>netcoreapp3.1;net472;net6.0;net6.0-windows;net8.0-windows;net9.0-windows</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 	<PropertyGroup>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<Authors>Unknown</Authors>
 		<Description>Flac (Free Lossless Audio Coded) support for NAudio.</Description>
 		<PackageLicenseExpression>Unlicense</PackageLicenseExpression>
@@ -20,7 +20,7 @@
 		<PackageId>NAudio.Flac.Unknown</PackageId>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="NAudio" Version="2.1.0" />
+		<PackageReference Include="NAudio" Version="2.2.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\Flac_logo.png">
